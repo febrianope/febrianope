@@ -1,0 +1,182 @@
+body {
+    background: linear-gradient(#6fecff 0%, #fa92ff 40%, #c392ff 100%)
+}
+/* CSS untuk section profil */
+.profile {
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+    padding: 20px; /* Memberikan padding pada section */
+  }
+  
+  .profile-content {
+    display: inline-block; /* Mengatur konten menjadi inline-block agar dapat rata tengah */
+    text-align: center; /* Mengatur teks di dalam konten menjadi rata tengah */
+  }
+  
+  .profile-img {
+    margin-top: 100px;
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    width: 150px; /* Menentukan lebar gambar */
+    height: 150px; /* Menentukan tinggi gambar */
+    object-fit: cover; /* Menjaga rasio gambar tetap saat mengubah ukuran */
+    margin-bottom: 15px; /* Memberikan jarak bawah pada gambar */
+  }
+  
+  .profile-name {
+    font-size: 2rem; /* Ukuran font untuk nama */
+    margin-bottom: 10px; /* Memberikan jarak bawah pada nama */
+  }
+  
+  .profile-title {
+    font-size: 1.5rem; /* Ukuran font untuk jabatan */
+    margin-bottom: 5px; /* Memberikan jarak bawah pada jabatan */
+  }
+  
+  .profile-description {
+    font-size: 1.2rem; /* Ukuran font untuk deskripsi tambahan */
+    color: #555; /* Warna teks untuk deskripsi tambahan */
+  }
+  
+  /* Responsif untuk perangkat kecil */
+  @media (max-width: 768px) {
+    .profile-img {
+      width: 120px; /* Menyesuaikan lebar gambar pada perangkat kecil */
+      height: 120px; /* Menyesuaikan tinggi gambar pada perangkat kecil */
+    }
+  
+    .profile-name {
+      font-size: 1.5rem; /* Menyesuaikan ukuran font pada perangkat kecil */
+    }
+  
+    .profile-title {
+      font-size: 1.2rem; /* Menyesuaikan ukuran font pada perangkat kecil */
+    }
+  
+    .profile-description {
+      font-size: 1rem; /* Menyesuaikan ukuran font pada perangkat kecil */
+    }
+  }
+  
+.profile h1 {
+    color: black;
+    margin-top: 30px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.profile h4 {
+    color: black;
+    margin-top: 10px;
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.profile h5 {
+    color: black;
+    margin-top: 8px;
+    font-family: "Livvic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.paytone-one-regular {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.unbounded-font {
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.btncustomwidth {
+    width: 230px;
+}
+.ARPA52007 {
+    width: 200px;
+}
+.biodata {
+    background: linear-gradient(#ffffff 0%, #fdfdfd 40%, #fa92ff 100%);
+    padding-bottom: 100px;
+    font-family: "Livvic", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+}
+.biodata h1 {
+    margin-bottom: 50px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 715;
+    font-style: normal;
+}
+.foto {
+    background-color: white;
+}
+.carousel-item img {
+    width: 60%; /* Mengatur lebar gambar menjadi 50% dari kontainer */
+    height: auto; /* Menjaga proporsi gambar */
+    margin: 0 auto; /* Memposisikan gambar di tengah */
+    border-radius: 15px;
+    margin-bottom: 80px;
+}
+.achievment {
+    background: linear-gradient(#fa92ff 0%, #fa92ff 40%, #c392ff3f 100%);
+}
+.achievment h1 {
+    margin-bottom: 50px;
+    color: #000000;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 715;
+    font-style: normal;
+}
+.card {
+    font-family: "Livvic", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.card h5 {
+    font-family: "Livvic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.footer {
+    background-color: #fff;
+}
+.footer p {
+    font-family: "Livvic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer h1 {
+    padding-bottom: 50px; 
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 715;
+    font-style: normal;
+}
+.footer a {
+    padding-bottom: 100px; 
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.contact a {
+    color: black;
+    font-size: 15px;
+    padding-bottom: 100px;
+}
+.watermark {
+    padding-top: 70px;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.845);
+}
+.achievment {
+    padding-top: 55px;
+}
+.biodata {
+    padding-top: 110px;
+}
